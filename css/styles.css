@@ -1,0 +1,150 @@
+#title {
+  background-color: #ff4c68;
+  padding: 10% 15% 100px;
+}
+
+body {}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Coda Caption', sans-serif;
+  line-height: 2;
+  color: #fff;
+  padding: 12% 0;
+}
+
+h2 {
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5
+}
+h3{
+  font-family: 'Coda Caption', sans-serif;
+}
+.iphone {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  width: 20%
+}
+
+@media (max-width:990px) {
+  .iphone {
+    position: static;
+    transform: rotate(0deg)
+  }
+}
+@media (max-width:990px) {
+  #title{
+    text-align: center;
+  }
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-top: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 18px 0;
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  text-align: center;
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15% margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.Mastiff {
+  line-height: 1;
+}
+#cta{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+padding: 12%;
+line-height: 1.5;
+
+}
+.last-but{
+  margin: 20px 10px 0 10px;
+}
+.footer-heading{
+  width: 50%;
+  margin: auto;
+}
+#footer{
+  text-align: center;
+background-color: #fff;
+}
+.icons{
+
+  padding: 30px 10px;
+}
